@@ -1,3 +1,14 @@
+// Project preview assets
+import chronosImg from '../assets/images/project_chronos_preview_1793380602606.jpg';
+import strataImg from '../assets/images/project_strata_canvas_1793380603645.jpg';
+import auraImg from '../assets/images/project_aura_tokens_1793380603002.jpg';
+import pulseImg from '../assets/images/project_pulse_audio_1793380604945.jpg';
+
+// Verified Certificate & Badge assets
+import pegaCertImg from '../assets/certificates/pega_cert.png';
+import srmCertImg from '../assets/certificates/srm_cert.png';
+import leetcodeBadgeImg from '../assets/certificates/leetcode_badge.png';
+
 export interface ProjectDiagramNode {
   step: string;
   title: string;
@@ -65,7 +76,7 @@ export const PORTFOLIO_DATA = {
     location: 'Mylavaram, Andhra Pradesh, India',
     availableForWork: true,
     statusText: 'Seeking software engineering & full-stack development roles',
-    resumePdfUrl: '/assets/aistudio/Ashok_Resume_a96ae567.pdf',
+    resumePdfUrl: './assets/aistudio/Ashok_Resume_a96ae567.pdf',
     socials: {
       github: 'https://github.com/Ashok-GH983',
       linkedin: 'https://www.linkedin.com/in/ashok-kumar-akula-8609962b5/',
@@ -90,7 +101,7 @@ export const PORTFOLIO_DATA = {
       metric: '60 Hours',
       metricLabel: 'Intensive capstone delivery sponsored by Pegasystems Worldwide & SmartBridge',
       tech: ['Pega Platform', 'Constellation UI', 'Agentic AI', 'Pega Blueprint', 'Case Lifecycle Mgmt'],
-      image: '/src/assets/images/project_chronos_preview_1793380602606.jpg',
+      image: chronosImg,
       liveUrl: 'https://www.linkedin.com/in/ashok-kumar-akula-8609962b5/',
       githubUrl: 'https://github.com/Ashok-GH983',
       featured: true,
@@ -132,7 +143,7 @@ export const PORTFOLIO_DATA = {
       metric: 'Sub-800ms',
       metricLabel: 'Inference response roundtrip with automated error fallbacks',
       tech: ['React.js', 'Hugging Face API', 'Firebase', 'RESTful APIs', 'Tailwind CSS'],
-      image: '/src/assets/images/project_strata_canvas_1793380603645.jpg',
+      image: strataImg,
       liveUrl: 'https://github.com/Ashok-GH983',
       githubUrl: 'https://github.com/Ashok-GH983',
       featured: false,
@@ -174,7 +185,7 @@ export const PORTFOLIO_DATA = {
       metric: '100% Coverage',
       metricLabel: 'Verified CRUD endpoints with end-to-end form validation',
       tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
-      image: '/src/assets/images/project_aura_tokens_1793380603002.jpg',
+      image: auraImg,
       liveUrl: 'https://github.com/Ashok-GH983',
       githubUrl: 'https://github.com/Ashok-GH983',
       featured: false,
@@ -216,7 +227,7 @@ export const PORTFOLIO_DATA = {
       metric: 'ACID Compliant',
       metricLabel: 'Transactional integrity maintained across complex enrollment cascades',
       tech: ['Java', 'Spring Boot', 'Spring Data JPA', 'MySQL', 'Thymeleaf'],
-      image: '/src/assets/images/project_pulse_audio_1793380604945.jpg',
+      image: pulseImg,
       liveUrl: 'https://github.com/Ashok-GH983',
       githubUrl: 'https://github.com/Ashok-GH983',
       featured: false,
@@ -307,7 +318,7 @@ export const PORTFOLIO_DATA = {
         'Engineered dynamic ticket routing (Premium vs. Standard), automated cost calculations, and SLA rules.',
         'Explored Pega Blueprint, Agentic AI autonomous actions, and Constellation UI data modeling.',
       ],
-      certificateImage: '/assets/aistudio/image_17a88d41.png',
+      certificateImage: pegaCertImg,
       badgeLabel: 'Verified Pega Certificate',
     },
     {
@@ -322,7 +333,7 @@ export const PORTFOLIO_DATA = {
         'Awarded Cash Prize & Medal for outstanding DSA and problem-solving execution.',
         'Competed against top collegiate coders from institutions across India under timed pressure.',
       ],
-      certificateImage: '/assets/aistudio/image_4c14c4ad.png',
+      certificateImage: srmCertImg,
       badgeLabel: 'AlgoArena 3rd Place Medal',
     },
     {
@@ -337,7 +348,7 @@ export const PORTFOLIO_DATA = {
         'Maintained daily problem-solving momentum across graphs, trees, dynamic programming, and heaps.',
         'Combined 900+ total problems solved across LeetCode & CodeChef.',
       ],
-      certificateImage: '/assets/aistudio/image_8ea373f2.png',
+      certificateImage: leetcodeBadgeImg,
       badgeLabel: 'Official LeetCode Badge',
     },
     {
